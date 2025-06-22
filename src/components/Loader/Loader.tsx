@@ -1,8 +1,7 @@
-import { Props } from 'react';
 import css from './Loader.module.css';
 import { PuffLoader } from 'react-spinners';
 
-export default function Loader(): Props.Element {
+export default function Loader() {
   return (
     <div className={css.wrapper}>
       <span className={css.text}>L</span>
